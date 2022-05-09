@@ -59,11 +59,7 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-<<<<<<< HEAD
-  "iteration": 1644016082547,
-=======
   "iteration": 1643394639692,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
   "links": [],
   "liveNow": false,
   "panels": [
@@ -121,7 +117,7 @@
       "pluginVersion": "8.3.4",
       "targets": [
         {
-          "expr": "sdc_read_user_data_iops{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_read_user_data_iops{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "intervalFactor": 2,
           "metric": "storagepool",
           "refId": "A",
@@ -186,7 +182,7 @@
       "pluginVersion": "8.3.4",
       "targets": [
         {
-          "expr": "sdc_write_user_data_iops{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_write_user_data_iops{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "intervalFactor": 2,
           "legendFormat": "",
           "refId": "A",
@@ -252,7 +248,7 @@
       "pluginVersion": "8.3.4",
       "targets": [
         {
-          "expr": "sdc_mapped_volumes{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_mapped_volumes{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "intervalFactor": 2,
           "refId": "A",
           "step": 1800
@@ -315,7 +311,7 @@
       "pluginVersion": "8.3.4",
       "targets": [
         {
-          "expr": "sdc_read_user_data_kb{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_read_user_data_kb{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "intervalFactor": 2,
           "refId": "A",
           "step": 2
@@ -379,7 +375,7 @@
       "pluginVersion": "8.3.4",
       "targets": [
         {
-          "expr": "sdc_write_user_data_kb{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_write_user_data_kb{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "intervalFactor": 2,
           "refId": "A",
           "step": 2
@@ -469,7 +465,7 @@
       "pluginVersion": "8.2.1",
       "targets": [
         {
-          "expr": "sdc_read_user_data_iops{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_read_user_data_iops{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "hide": false,
           "intervalFactor": 2,
           "legendFormat": "Read",
@@ -478,7 +474,7 @@
           "step": 120
         },
         {
-          "expr": "sdc_write_user_data_iops{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_write_user_data_iops{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "hide": false,
           "intervalFactor": 2,
           "legendFormat": "Write",
@@ -573,7 +569,7 @@
       "pluginVersion": "8.2.1",
       "targets": [
         {
-          "expr": "sdc_read_user_data_kb{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_read_user_data_kb{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "hide": false,
           "intervalFactor": 2,
           "legendFormat": "Read",
@@ -582,7 +578,7 @@
           "step": 120
         },
         {
-          "expr": "sdc_write_user_data_kb{sdc_id=\"$SDC_ID\"}",
+          "expr": "sdc_write_user_data_kb{sdc_id=\"$SDC_ID\",sdc_name=\"$SDC\"}",
           "hide": false,
           "intervalFactor": 2,
           "legendFormat": "Write",
@@ -622,11 +618,7 @@
         "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
-<<<<<<< HEAD
-        "sort": 1,
-=======
         "sort": 0,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
         "type": "query"
       },
       {
@@ -648,11 +640,7 @@
         "refresh": 1,
         "regex": "",
         "skipUrlSync": false,
-<<<<<<< HEAD
-        "sort": 1,
-=======
         "sort": 0,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
         "type": "query"
       },
       {
@@ -711,10 +699,6 @@
   "timezone": "browser",
   "title": "5 - PowerFlex - SDC",
   "uid": "_CNP3MKnk",
-<<<<<<< HEAD
-  "version": 4,
-=======
   "version": 2,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
   "weekStart": ""
 }

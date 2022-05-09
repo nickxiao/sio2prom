@@ -59,22 +59,15 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 1,
   "id": null,
-<<<<<<< HEAD
-  "iteration": 1644015937410,
-=======
   "iteration": 1643394544402,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
   "links": [],
   "liveNow": false,
   "panels": [
     {
-<<<<<<< HEAD
-=======
       "datasource": {
         "type": "prometheus",
         "uid": "${DS_PROMETHEUS}"
       },
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -204,69 +197,6 @@
       ],
       "timeFrom": "1m",
       "title": "Write OPS",
-<<<<<<< HEAD
-      "type": "stat"
-    },
-    {
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "fixedColor": "dark-purple",
-            "mode": "fixed"
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              }
-            ]
-          },
-          "unit": "percent"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 7,
-        "w": 4,
-        "x": 10,
-        "y": 0
-      },
-      "id": 19,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "textMode": "auto"
-      },
-      "pluginVersion": "8.3.4",
-      "targets": [
-        {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "${DS_PROMETHEUS}"
-          },
-          "exemplar": true,
-          "expr": "(system_write_total_iops{clu_name=\"$CLU\"} / (system_read_total_iops{clu_name=\"$CLU\"} + system_write_total_iops{clu_name=\"$CLU\"})) * 100",
-          "interval": "",
-          "legendFormat": "",
-          "refId": "A"
-        }
-      ],
-      "timeFrom": "1w",
-      "title": "Write ratio",
-=======
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
       "type": "stat"
     },
     {
@@ -1567,11 +1497,7 @@
       "type": "timeseries"
     }
   ],
-<<<<<<< HEAD
-  "refresh": "",
-=======
   "refresh": false,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
   "schemaVersion": 34,
   "style": "dark",
   "tags": [
@@ -1599,11 +1525,7 @@
         "refresh": 2,
         "regex": "",
         "skipUrlSync": false,
-<<<<<<< HEAD
-        "sort": 1,
-=======
         "sort": 0,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
         "type": "query"
       }
     ]
@@ -1640,10 +1562,6 @@
   "timezone": "browser",
   "title": "1 - PowerFlex - Cluster",
   "uid": "Jetc3MK7k",
-<<<<<<< HEAD
-  "version": 11,
-=======
   "version": 4,
->>>>>>> 08f3f7194c9e05973f6a2f1697709ceb70febf8c
   "weekStart": ""
 }
